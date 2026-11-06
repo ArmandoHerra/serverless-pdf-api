@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+.coverage.*
+
+# Serverless Framework
+.serverless/
+.esbuild/
+node_modules/
+
+# Build
+dist/
+build/
+
+# Environment and secrets -- never commit an API key, account id or password file
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+
+# Local scratch (smoke-test downloads, sample PDFs)
+.scratch/
+out/
+
+# IDE / OS
+.idea/
+.vscode/
+*.swp
+.DS_Store
